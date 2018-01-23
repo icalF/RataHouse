@@ -297,7 +297,7 @@ namespace RataHouse
 			}
 		}
 
-	public:	 
+	public:
 		char* pathfile;
 		bool exe = false;
 
@@ -930,4 +930,3 @@ namespace RataHouse
 
 	};
 }
-

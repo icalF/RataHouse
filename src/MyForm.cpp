@@ -1,15 +1,15 @@
-#include "Form.h"
+#include <MyForm.h>
 
 using namespace System;
 using namespace System::Windows::Forms;
 
 [STAThread]
-void Main(array<String^>^ args)
+void Main(cli::array<String^>^ args)
 {
 	/* activate GUI */
 	Application::EnableVisualStyles();
 	Application::SetCompatibleTextRenderingDefault(true);
 
-	SmartGrid::MyForm form;
+	RataHouse::MyForm form;
 	Application::Run(%form);
 }
