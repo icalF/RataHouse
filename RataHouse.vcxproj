@@ -138,8 +138,8 @@
     <ClInclude Include="include\MyForm.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Device.cpp" />
-    <ClCompile Include="Interval.cpp" />
+    <ClCompile Include="src\Device.cpp" />
+    <ClCompile Include="src\Interval.cpp" />
     <ClCompile Include="src\MyForm.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
